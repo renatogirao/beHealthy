@@ -1,0 +1,6 @@
+framework module Pods_Be_Healthy_SantanderUITests {
+  umbrella header "Pods-Be Healthy SantanderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

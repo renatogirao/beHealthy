@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425421170C8B5578594673E2 /* Pods_Be_Healthy_Santander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BA4FE2061AE68025C96D37 /* Pods_Be_Healthy_Santander.framework */; };
+		7157AD360AF3800FCD1D899A /* Pods_Be_Healthy_SantanderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C258C9023810D6B014B6637 /* Pods_Be_Healthy_SantanderUITests.framework */; };
+		94227CA5459CDFC3D81D7F91 /* Pods_Be_Healthy_SantanderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC17F1EC3662F2515D2F1D13 /* Pods_Be_Healthy_SantanderTests.framework */; };
+		FA326FCA1EC35E68006FFCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FC91EC35E68006FFCE8 /* AppDelegate.swift */; };
+		FA326FCC1EC35E68006FFCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FCB1EC35E68006FFCE8 /* ViewController.swift */; };
+		FA326FCF1EC35E68006FFCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA326FCD1EC35E68006FFCE8 /* Main.storyboard */; };
+		FA326FD41EC35E68006FFCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA326FD21EC35E68006FFCE8 /* LaunchScreen.storyboard */; };
+		FA326FDF1EC35E68006FFCE8 /* Be_Healthy_SantanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FDE1EC35E68006FFCE8 /* Be_Healthy_SantanderTests.swift */; };
+		FA326FEA1EC35E68006FFCE8 /* Be_Healthy_SantanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FE91EC35E68006FFCE8 /* Be_Healthy_SantanderUITests.swift */; };
+		FA326FF81EC36CEC006FFCE8 /* Opcoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FF71EC36CEC006FFCE8 /* Opcoes.swift */; };
+		FA3270091EC375A8006FFCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3270081EC375A8006FFCE8 /* Assets.xcassets */; };
+		FA32700B1EC387FF006FFCE8 /* OpcaoCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32700A1EC387FF006FFCE8 /* OpcaoCelula.swift */; };
+		FA3270131EC3968B006FFCE8 /* CorridaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270121EC3968B006FFCE8 /* CorridaViewController.swift */; };
+		FA3270151EC39693006FFCE8 /* CalculoIMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270141EC39693006FFCE8 /* CalculoIMCViewController.swift */; };
+		FA3270171EC3969E006FFCE8 /* LembreteAguaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270161EC3969E006FFCE8 /* LembreteAguaViewController.swift */; };
+		FA32701B1EC396FC006FFCE8 /* ColetaDeDadosCorridaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32701A1EC396FC006FFCE8 /* ColetaDeDadosCorridaViewController.swift */; };
+		FA3CB6571F1F95F60068D115 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB6561F1F95F60068D115 /* GoogleService-Info.plist */; };
+		FA3CB6591F1FA22A0068D115 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB6581F1FA22A0068D115 /* facebook.png */; };
+		FA3CB65B1F1FA41C0068D115 /* fundoTelaAzulbolinha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB65A1F1FA41C0068D115 /* fundoTelaAzulbolinha.jpg */; };
+		FA3CB65D1F1FA5040068D115 /* estrada fundo celular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB65C1F1FA5040068D115 /* estrada fundo celular.jpg */; };
+		FA3CB65F1F1FA5320068D115 /* logo e healthy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB65E1F1FA5320068D115 /* logo e healthy.png */; };
+		FA3CB6631F1FB1260068D115 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CB6621F1FB1260068D115 /* RegistroViewController.swift */; };
+		FA3CB6651F1FB5D40068D115 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB6641F1FB5D40068D115 /* facebook.png */; };
+		FA60B7FB1F15142A00E322E0 /* alarme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA60B7FA1F15142A00E322E0 /* alarme.mp3 */; };
+		FA60B7FD1F152C7D00E322E0 /* CalculoAguaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60B7FC1F152C7D00E322E0 /* CalculoAguaViewController.swift */; };
+		FA805C121F0AD28F00007611 /* inicio be healthy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA805C111F0AD28F00007611 /* inicio be healthy.png */; };
+		FA8EB87C1ED70DDF00585ED6 /* cansado32pixels.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8EB87A1ED70DDF00585ED6 /* cansado32pixels.png */; };
+		FA8EB87D1ED70DDF00585ED6 /* cansado64pixels.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8EB87B1ED70DDF00585ED6 /* cansado64pixels.png */; };
+		FA8EB87F1ED70DF700585ED6 /* meninoComemorandoEscolhido.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8EB87E1ED70DF700585ED6 /* meninoComemorandoEscolhido.png */; };
+		FA8EB8811ED70E0000585ED6 /* correndo bem rapido.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8EB8801ED70E0000585ED6 /* correndo bem rapido.png */; };
+		FAB574271EC4940800F8B99C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB574261EC4940800F8B99C /* LoginViewController.swift */; };
+		FAB5742E1EC4A89500F8B99C /* Underdoug DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAB574281EC4A89500F8B99C /* Underdoug DEMO.otf */; };
+		FAB5742F1EC4A89500F8B99C /* Ember.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAB574291EC4A89500F8B99C /* Ember.otf */; };
+		FAB574301EC4A89500F8B99C /* coffee+teademo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB5742A1EC4A89500F8B99C /* coffee+teademo-Regular.ttf */; };
+		FAB9F1321EC9DA5400297F78 /* DadosDaCorridaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9F1311EC9DA5400297F78 /* DadosDaCorridaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA326FDB1EC35E68006FFCE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA326FBE1EC35E68006FFCE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA326FC51EC35E68006FFCE8;
+			remoteInfo = "Be Healthy Santander";
+		};
+		FA326FE61EC35E68006FFCE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA326FBE1EC35E68006FFCE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA326FC51EC35E68006FFCE8;
+			remoteInfo = "Be Healthy Santander";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C258C9023810D6B014B6637 /* Pods_Be_Healthy_SantanderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Be_Healthy_SantanderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BA4FE2061AE68025C96D37 /* Pods_Be_Healthy_Santander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Be_Healthy_Santander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E199F925762E7BBEE1D3258 /* Pods-Be Healthy SantanderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy SantanderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy SantanderUITests/Pods-Be Healthy SantanderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E5BFF7205CCCC1D8C526CAC /* Pods-Be Healthy SantanderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy SantanderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy SantanderUITests/Pods-Be Healthy SantanderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D35A193E8E9D6A5AD1D40A /* Pods-Be Healthy SantanderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy SantanderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy SantanderTests/Pods-Be Healthy SantanderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8B44F19108DE2DBE53389A6 /* Pods-Be Healthy SantanderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy SantanderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy SantanderTests/Pods-Be Healthy SantanderTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC17F1EC3662F2515D2F1D13 /* Pods_Be_Healthy_SantanderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Be_Healthy_SantanderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA326FC61EC35E68006FFCE8 /* Be Healthy Santander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Healthy Santander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA326FC91EC35E68006FFCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA326FCB1EC35E68006FFCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA326FCE1EC35E68006FFCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA326FD31EC35E68006FFCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA326FD51EC35E68006FFCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA326FDA1EC35E68006FFCE8 /* Be Healthy SantanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be Healthy SantanderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA326FDE1EC35E68006FFCE8 /* Be_Healthy_SantanderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_Healthy_SantanderTests.swift; sourceTree = "<group>"; };
+		FA326FE01EC35E68006FFCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA326FE51EC35E68006FFCE8 /* Be Healthy SantanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be Healthy SantanderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA326FE91EC35E68006FFCE8 /* Be_Healthy_SantanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_Healthy_SantanderUITests.swift; sourceTree = "<group>"; };
+		FA326FEB1EC35E68006FFCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA326FF71EC36CEC006FFCE8 /* Opcoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Opcoes.swift; sourceTree = "<group>"; };
+		FA3270081EC375A8006FFCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Santander Be Healthy/Onde estou Aula/Assets.xcassets"; sourceTree = "<group>"; };
+		FA32700A1EC387FF006FFCE8 /* OpcaoCelula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpcaoCelula.swift; sourceTree = "<group>"; };
+		FA3270121EC3968B006FFCE8 /* CorridaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CorridaViewController.swift; path = ../CorridaViewController.swift; sourceTree = "<group>"; };
+		FA3270141EC39693006FFCE8 /* CalculoIMCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculoIMCViewController.swift; path = ../CalculoIMCViewController.swift; sourceTree = "<group>"; };
+		FA3270161EC3969E006FFCE8 /* LembreteAguaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LembreteAguaViewController.swift; path = ../LembreteAguaViewController.swift; sourceTree = "<group>"; };
+		FA32701A1EC396FC006FFCE8 /* ColetaDeDadosCorridaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColetaDeDadosCorridaViewController.swift; sourceTree = "<group>"; };
+		FA32F5CF1F0EB870004ABD4C /* It is Definitely Possible.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "It is Definitely Possible.otf"; path = "../../Fontes/It is Definitely Possible.otf"; sourceTree = "<group>"; };
+		FA3CB6561F1F95F60068D115 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FA3CB6581F1FA22A0068D115 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = "../../Ícones/facebook.png"; sourceTree = "<group>"; };
+		FA3CB65A1F1FA41C0068D115 /* fundoTelaAzulbolinha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fundoTelaAzulbolinha.jpg; path = "../../Ícones/fundoTelaAzulbolinha.jpg"; sourceTree = "<group>"; };
+		FA3CB65C1F1FA5040068D115 /* estrada fundo celular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "estrada fundo celular.jpg"; path = "../../Ícones/estrada fundo celular.jpg"; sourceTree = "<group>"; };
+		FA3CB65E1F1FA5320068D115 /* logo e healthy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo e healthy.png"; path = "../../Ícones/logo e healthy.png"; sourceTree = "<group>"; };
+		FA3CB6621F1FB1260068D115 /* RegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		FA3CB6641F1FB5D40068D115 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = "../../Ícones/facebook.png"; sourceTree = "<group>"; };
+		FA60B7FA1F15142A00E322E0 /* alarme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarme.mp3; path = ../../../../Downloads/alarme.mp3; sourceTree = "<group>"; };
+		FA60B7FC1F152C7D00E322E0 /* CalculoAguaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculoAguaViewController.swift; sourceTree = "<group>"; };
+		FA805C111F0AD28F00007611 /* inicio be healthy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "inicio be healthy.png"; path = "../../Ícones/inicio be healthy.png"; sourceTree = "<group>"; };
+		FA8EB87A1ED70DDF00585ED6 /* cansado32pixels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cansado32pixels.png; path = "../../Ícones/cansado32pixels.png"; sourceTree = "<group>"; };
+		FA8EB87B1ED70DDF00585ED6 /* cansado64pixels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cansado64pixels.png; path = "../../Ícones/cansado64pixels.png"; sourceTree = "<group>"; };
+		FA8EB87E1ED70DF700585ED6 /* meninoComemorandoEscolhido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meninoComemorandoEscolhido.png; path = "../../Ícones/meninoComemorandoEscolhido.png"; sourceTree = "<group>"; };
+		FA8EB8801ED70E0000585ED6 /* correndo bem rapido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "correndo bem rapido.png"; path = "../../Ícones/correndo bem rapido.png"; sourceTree = "<group>"; };
+		FAB574261EC4940800F8B99C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FAB574281EC4A89500F8B99C /* Underdoug DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Underdoug DEMO.otf"; path = "/Users/flexadm/Documents/Apps/Santander Be Healthy/../Fontes/Underdoug DEMO.otf"; sourceTree = "<absolute>"; };
+		FAB574291EC4A89500F8B99C /* Ember.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ember.otf; path = "/Users/flexadm/Documents/Apps/Santander Be Healthy/../Fontes/Ember.otf"; sourceTree = "<absolute>"; };
+		FAB5742A1EC4A89500F8B99C /* coffee+teademo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "coffee+teademo-Regular.ttf"; path = "/Users/flexadm/Documents/Apps/Santander Be Healthy/../Fontes/coffee+teademo-Regular.ttf"; sourceTree = "<absolute>"; };
+		FAB9F1311EC9DA5400297F78 /* DadosDaCorridaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadosDaCorridaViewController.swift; sourceTree = "<group>"; };
+		FAE6648D68E181317B3570DF /* Pods-Be Healthy Santander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy Santander.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy Santander/Pods-Be Healthy Santander.debug.xcconfig"; sourceTree = "<group>"; };
+		FE5309F217A5BAEA2DAC0E8A /* Pods-Be Healthy Santander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy Santander.release.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy Santander/Pods-Be Healthy Santander.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA326FC31EC35E68006FFCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425421170C8B5578594673E2 /* Pods_Be_Healthy_Santander.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FD71EC35E68006FFCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94227CA5459CDFC3D81D7F91 /* Pods_Be_Healthy_SantanderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FE21EC35E68006FFCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7157AD360AF3800FCD1D899A /* Pods_Be_Healthy_SantanderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A3DC8165D5684365F8EE8B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BA4FE2061AE68025C96D37 /* Pods_Be_Healthy_Santander.framework */,
+				EC17F1EC3662F2515D2F1D13 /* Pods_Be_Healthy_SantanderTests.framework */,
+				3C258C9023810D6B014B6637 /* Pods_Be_Healthy_SantanderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1B8F4367D00714B1BC0848E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6648D68E181317B3570DF /* Pods-Be Healthy Santander.debug.xcconfig */,
+				FE5309F217A5BAEA2DAC0E8A /* Pods-Be Healthy Santander.release.xcconfig */,
+				A0D35A193E8E9D6A5AD1D40A /* Pods-Be Healthy SantanderTests.debug.xcconfig */,
+				C8B44F19108DE2DBE53389A6 /* Pods-Be Healthy SantanderTests.release.xcconfig */,
+				9E5BFF7205CCCC1D8C526CAC /* Pods-Be Healthy SantanderUITests.debug.xcconfig */,
+				8E199F925762E7BBEE1D3258 /* Pods-Be Healthy SantanderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA326FBD1EC35E68006FFCE8 = {
+			isa = PBXGroup;
+			children = (
+				FA326FC81EC35E68006FFCE8 /* Be Healthy Santander */,
+				FA326FDD1EC35E68006FFCE8 /* Be Healthy SantanderTests */,
+				FA326FE81EC35E68006FFCE8 /* Be Healthy SantanderUITests */,
+				FA326FC71EC35E68006FFCE8 /* Products */,
+				FA3270071EC37596006FFCE8 /* Arquivos Externos */,
+				F1B8F4367D00714B1BC0848E /* Pods */,
+				5A3DC8165D5684365F8EE8B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA326FC71EC35E68006FFCE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA326FC61EC35E68006FFCE8 /* Be Healthy Santander.app */,
+				FA326FDA1EC35E68006FFCE8 /* Be Healthy SantanderTests.xctest */,
+				FA326FE51EC35E68006FFCE8 /* Be Healthy SantanderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA326FC81EC35E68006FFCE8 /* Be Healthy Santander */ = {
+			isa = PBXGroup;
+			children = (
+				FA326FC91EC35E68006FFCE8 /* AppDelegate.swift */,
+				FA326FF71EC36CEC006FFCE8 /* Opcoes.swift */,
+				FA32700A1EC387FF006FFCE8 /* OpcaoCelula.swift */,
+				FAB574261EC4940800F8B99C /* LoginViewController.swift */,
+				FA326FCB1EC35E68006FFCE8 /* ViewController.swift */,
+				FA3CB6621F1FB1260068D115 /* RegistroViewController.swift */,
+				FA60B7FC1F152C7D00E322E0 /* CalculoAguaViewController.swift */,
+				FA3270161EC3969E006FFCE8 /* LembreteAguaViewController.swift */,
+				FA32701A1EC396FC006FFCE8 /* ColetaDeDadosCorridaViewController.swift */,
+				FA3270121EC3968B006FFCE8 /* CorridaViewController.swift */,
+				FAB9F1311EC9DA5400297F78 /* DadosDaCorridaViewController.swift */,
+				FA3270141EC39693006FFCE8 /* CalculoIMCViewController.swift */,
+				FA326FCD1EC35E68006FFCE8 /* Main.storyboard */,
+				FA326FD21EC35E68006FFCE8 /* LaunchScreen.storyboard */,
+				FA3CB6561F1F95F60068D115 /* GoogleService-Info.plist */,
+				FA326FD51EC35E68006FFCE8 /* Info.plist */,
+				FA3270081EC375A8006FFCE8 /* Assets.xcassets */,
+			);
+			path = "Be Healthy Santander";
+			sourceTree = "<group>";
+		};
+		FA326FDD1EC35E68006FFCE8 /* Be Healthy SantanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA326FDE1EC35E68006FFCE8 /* Be_Healthy_SantanderTests.swift */,
+				FA326FE01EC35E68006FFCE8 /* Info.plist */,
+			);
+			path = "Be Healthy SantanderTests";
+			sourceTree = "<group>";
+		};
+		FA326FE81EC35E68006FFCE8 /* Be Healthy SantanderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA326FE91EC35E68006FFCE8 /* Be_Healthy_SantanderUITests.swift */,
+				FA326FEB1EC35E68006FFCE8 /* Info.plist */,
+			);
+			path = "Be Healthy SantanderUITests";
+			sourceTree = "<group>";
+		};
+		FA3270071EC37596006FFCE8 /* Arquivos Externos */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CB6641F1FB5D40068D115 /* facebook.png */,
+				FA3CB6581F1FA22A0068D115 /* facebook.png */,
+				FA32F5CF1F0EB870004ABD4C /* It is Definitely Possible.otf */,
+				FA805C111F0AD28F00007611 /* inicio be healthy.png */,
+				FA3CB65C1F1FA5040068D115 /* estrada fundo celular.jpg */,
+				FA3CB65A1F1FA41C0068D115 /* fundoTelaAzulbolinha.jpg */,
+				FA3CB65E1F1FA5320068D115 /* logo e healthy.png */,
+				FAB574281EC4A89500F8B99C /* Underdoug DEMO.otf */,
+				FAB574291EC4A89500F8B99C /* Ember.otf */,
+				FAB5742A1EC4A89500F8B99C /* coffee+teademo-Regular.ttf */,
+				FA8EB87A1ED70DDF00585ED6 /* cansado32pixels.png */,
+				FA8EB87B1ED70DDF00585ED6 /* cansado64pixels.png */,
+				FA8EB87E1ED70DF700585ED6 /* meninoComemorandoEscolhido.png */,
+				FA8EB8801ED70E0000585ED6 /* correndo bem rapido.png */,
+				FA60B7FA1F15142A00E322E0 /* alarme.mp3 */,
+			);
+			name = "Arquivos Externos";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA326FC51EC35E68006FFCE8 /* Be Healthy Santander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA326FEE1EC35E68006FFCE8 /* Build configuration list for PBXNativeTarget "Be Healthy Santander" */;
+			buildPhases = (
+				BFB9C9A71E9839E3C0F02ACF /* [CP] Check Pods Manifest.lock */,
+				FA326FC21EC35E68006FFCE8 /* Sources */,
+				FA326FC31EC35E68006FFCE8 /* Frameworks */,
+				FA326FC41EC35E68006FFCE8 /* Resources */,
+				3BA682C6A49C1BBCB3FA2ADD /* [CP] Embed Pods Frameworks */,
+				3248D7F857271A1E7663D06D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Be Healthy Santander";
+			productName = "Be Healthy Santander";
+			productReference = FA326FC61EC35E68006FFCE8 /* Be Healthy Santander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA326FD91EC35E68006FFCE8 /* Be Healthy SantanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA326FF11EC35E68006FFCE8 /* Build configuration list for PBXNativeTarget "Be Healthy SantanderTests" */;
+			buildPhases = (
+				8C4B0A018925796ED1B37108 /* [CP] Check Pods Manifest.lock */,
+				FA326FD61EC35E68006FFCE8 /* Sources */,
+				FA326FD71EC35E68006FFCE8 /* Frameworks */,
+				FA326FD81EC35E68006FFCE8 /* Resources */,
+				0543047801B6238A332ACEBD /* [CP] Embed Pods Frameworks */,
+				0B6361A0D2AC9CB995C158FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA326FDC1EC35E68006FFCE8 /* PBXTargetDependency */,
+			);
+			name = "Be Healthy SantanderTests";
+			productName = "Be Healthy SantanderTests";
+			productReference = FA326FDA1EC35E68006FFCE8 /* Be Healthy SantanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA326FE41EC35E68006FFCE8 /* Be Healthy SantanderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA326FF41EC35E68006FFCE8 /* Build configuration list for PBXNativeTarget "Be Healthy SantanderUITests" */;
+			buildPhases = (
+				378A2BE02A03AE2C55D669CC /* [CP] Check Pods Manifest.lock */,
+				FA326FE11EC35E68006FFCE8 /* Sources */,
+				FA326FE21EC35E68006FFCE8 /* Frameworks */,
+				FA326FE31EC35E68006FFCE8 /* Resources */,
+				20C2F75E92BFFD9DE0ED1862 /* [CP] Embed Pods Frameworks */,
+				325D54D018A8A9182BFB955F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA326FE71EC35E68006FFCE8 /* PBXTargetDependency */,
+			);
+			name = "Be Healthy SantanderUITests";
+			productName = "Be Healthy SantanderUITests";
+			productReference = FA326FE51EC35E68006FFCE8 /* Be Healthy SantanderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA326FBE1EC35E68006FFCE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Flex Administrador";
+				TargetAttributes = {
+					FA326FC51EC35E68006FFCE8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = KXUSNVLP69;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					FA326FD91EC35E68006FFCE8 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA326FC51EC35E68006FFCE8;
+					};
+					FA326FE41EC35E68006FFCE8 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA326FC51EC35E68006FFCE8;
+					};
+				};
+			};
+			buildConfigurationList = FA326FC11EC35E68006FFCE8 /* Build configuration list for PBXProject "Be Healthy Santander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA326FBD1EC35E68006FFCE8;
+			productRefGroup = FA326FC71EC35E68006FFCE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA326FC51EC35E68006FFCE8 /* Be Healthy Santander */,
+				FA326FD91EC35E68006FFCE8 /* Be Healthy SantanderTests */,
+				FA326FE41EC35E68006FFCE8 /* Be Healthy SantanderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA326FC41EC35E68006FFCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3CB65D1F1FA5040068D115 /* estrada fundo celular.jpg in Resources */,
+				FA3CB6571F1F95F60068D115 /* GoogleService-Info.plist in Resources */,
+				FA326FD41EC35E68006FFCE8 /* LaunchScreen.storyboard in Resources */,
+				FA3CB65F1F1FA5320068D115 /* logo e healthy.png in Resources */,
+				FA3270091EC375A8006FFCE8 /* Assets.xcassets in Resources */,
+				FA3CB6591F1FA22A0068D115 /* facebook.png in Resources */,
+				FA3CB65B1F1FA41C0068D115 /* fundoTelaAzulbolinha.jpg in Resources */,
+				FA8EB87C1ED70DDF00585ED6 /* cansado32pixels.png in Resources */,
+				FA8EB8811ED70E0000585ED6 /* correndo bem rapido.png in Resources */,
+				FA326FCF1EC35E68006FFCE8 /* Main.storyboard in Resources */,
+				FAB574301EC4A89500F8B99C /* coffee+teademo-Regular.ttf in Resources */,
+				FA60B7FB1F15142A00E322E0 /* alarme.mp3 in Resources */,
+				FAB5742E1EC4A89500F8B99C /* Underdoug DEMO.otf in Resources */,
+				FA3CB6651F1FB5D40068D115 /* facebook.png in Resources */,
+				FA805C121F0AD28F00007611 /* inicio be healthy.png in Resources */,
+				FA8EB87F1ED70DF700585ED6 /* meninoComemorandoEscolhido.png in Resources */,
+				FAB5742F1EC4A89500F8B99C /* Ember.otf in Resources */,
+				FA8EB87D1ED70DDF00585ED6 /* cansado64pixels.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FD81EC35E68006FFCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FE31EC35E68006FFCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0543047801B6238A332ACEBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Be Healthy SantanderTests/Pods-Be Healthy SantanderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B6361A0D2AC9CB995C158FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Be Healthy SantanderTests/Pods-Be Healthy SantanderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20C2F75E92BFFD9DE0ED1862 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Be Healthy SantanderUITests/Pods-Be Healthy SantanderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3248D7F857271A1E7663D06D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Be Healthy Santander/Pods-Be Healthy Santander-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		325D54D018A8A9182BFB955F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Be Healthy SantanderUITests/Pods-Be Healthy SantanderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		378A2BE02A03AE2C55D669CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BA682C6A49C1BBCB3FA2ADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Be Healthy Santander/Pods-Be Healthy Santander-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4B0A018925796ED1B37108 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB9C9A71E9839E3C0F02ACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA326FC21EC35E68006FFCE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB9F1321EC9DA5400297F78 /* DadosDaCorridaViewController.swift in Sources */,
+				FA3270171EC3969E006FFCE8 /* LembreteAguaViewController.swift in Sources */,
+				FA3270151EC39693006FFCE8 /* CalculoIMCViewController.swift in Sources */,
+				FA32700B1EC387FF006FFCE8 /* OpcaoCelula.swift in Sources */,
+				FA3CB6631F1FB1260068D115 /* RegistroViewController.swift in Sources */,
+				FA326FF81EC36CEC006FFCE8 /* Opcoes.swift in Sources */,
+				FA326FCC1EC35E68006FFCE8 /* ViewController.swift in Sources */,
+				FA32701B1EC396FC006FFCE8 /* ColetaDeDadosCorridaViewController.swift in Sources */,
+				FA3270131EC3968B006FFCE8 /* CorridaViewController.swift in Sources */,
+				FA60B7FD1F152C7D00E322E0 /* CalculoAguaViewController.swift in Sources */,
+				FAB574271EC4940800F8B99C /* LoginViewController.swift in Sources */,
+				FA326FCA1EC35E68006FFCE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FD61EC35E68006FFCE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA326FDF1EC35E68006FFCE8 /* Be_Healthy_SantanderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA326FE11EC35E68006FFCE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA326FEA1EC35E68006FFCE8 /* Be_Healthy_SantanderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA326FDC1EC35E68006FFCE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA326FC51EC35E68006FFCE8 /* Be Healthy Santander */;
+			targetProxy = FA326FDB1EC35E68006FFCE8 /* PBXContainerItemProxy */;
+		};
+		FA326FE71EC35E68006FFCE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA326FC51EC35E68006FFCE8 /* Be Healthy Santander */;
+			targetProxy = FA326FE61EC35E68006FFCE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA326FCD1EC35E68006FFCE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA326FCE1EC35E68006FFCE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA326FD21EC35E68006FFCE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA326FD31EC35E68006FFCE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA326FEC1EC35E68006FFCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA326FED1EC35E68006FFCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA326FEF1EC35E68006FFCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE6648D68E181317B3570DF /* Pods-Be Healthy Santander.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KXUSNVLP69;
+				INFOPLIST_FILE = "Be Healthy Santander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-Santander";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA326FF01EC35E68006FFCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5309F217A5BAEA2DAC0E8A /* Pods-Be Healthy Santander.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KXUSNVLP69;
+				INFOPLIST_FILE = "Be Healthy Santander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-Santander";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FA326FF21EC35E68006FFCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D35A193E8E9D6A5AD1D40A /* Pods-Be Healthy SantanderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Be Healthy SantanderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-SantanderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be Healthy Santander.app/Be Healthy Santander";
+			};
+			name = Debug;
+		};
+		FA326FF31EC35E68006FFCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B44F19108DE2DBE53389A6 /* Pods-Be Healthy SantanderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Be Healthy SantanderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-SantanderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be Healthy Santander.app/Be Healthy Santander";
+			};
+			name = Release;
+		};
+		FA326FF51EC35E68006FFCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5BFF7205CCCC1D8C526CAC /* Pods-Be Healthy SantanderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Be Healthy SantanderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-SantanderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Be Healthy Santander";
+			};
+			name = Debug;
+		};
+		FA326FF61EC35E68006FFCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E199F925762E7BBEE1D3258 /* Pods-Be Healthy SantanderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Be Healthy SantanderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-SantanderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Be Healthy Santander";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA326FC11EC35E68006FFCE8 /* Build configuration list for PBXProject "Be Healthy Santander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA326FEC1EC35E68006FFCE8 /* Debug */,
+				FA326FED1EC35E68006FFCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA326FEE1EC35E68006FFCE8 /* Build configuration list for PBXNativeTarget "Be Healthy Santander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA326FEF1EC35E68006FFCE8 /* Debug */,
+				FA326FF01EC35E68006FFCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA326FF11EC35E68006FFCE8 /* Build configuration list for PBXNativeTarget "Be Healthy SantanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA326FF21EC35E68006FFCE8 /* Debug */,
+				FA326FF31EC35E68006FFCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA326FF41EC35E68006FFCE8 /* Build configuration list for PBXNativeTarget "Be Healthy SantanderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA326FF51EC35E68006FFCE8 /* Debug */,
+				FA326FF61EC35E68006FFCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA326FBE1EC35E68006FFCE8 /* Project object */;
+}
