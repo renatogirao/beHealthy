@@ -19,25 +19,25 @@ class ViewController: UITableViewController {
     
         var optionCell: Opcao
         
-        optionCell = Opcao(tituloOpcao: "Step Counter", foto: #imageLiteral(resourceName: "localizacao"))
+        optionCell = Opcao(tituloOpcao: "Step Counter", foto: #imageLiteral(resourceName: "placeholder"))
         arrayOptions.append(optionCell)
         
-        optionCell = Opcao(tituloOpcao: "Hidrate-se", foto: #imageLiteral(resourceName: "garrafaDeAgua"))
+        optionCell = Opcao(tituloOpcao: "Hidrate-se", foto: #imageLiteral(resourceName: "bottle-of-water"))
         arrayOptions.append(optionCell)
         
-        optionCell = Opcao(tituloOpcao: "Vídeos", foto: #imageLiteral(resourceName: "botaoPlay"))
+        optionCell = Opcao(tituloOpcao: "Vídeos", foto: #imageLiteral(resourceName: "play-button"))
         arrayOptions.append(optionCell)
         
-        optionCell = Opcao(tituloOpcao: "Quiz da Saúde", foto:#imageLiteral(resourceName: "iconeQuiz") )
+        optionCell = Opcao(tituloOpcao: "Quiz da Saúde", foto:#imageLiteral(resourceName: "speech-bubble"))
         arrayOptions.append(optionCell)
         
-        optionCell = Opcao(tituloOpcao: "Movimente-se", foto: #imageLiteral(resourceName: "meninoCorrendoRapido"))
+        optionCell = Opcao(tituloOpcao: "Movimente-se", foto: #imageLiteral(resourceName: "runer-silhouette-running-fast"))
         arrayOptions.append(optionCell)
         
-        optionCell = Opcao(tituloOpcao: "Agenda de Exames", foto: #imageLiteral(resourceName: "calendario"))
+        optionCell = Opcao(tituloOpcao: "Agenda de Exames", foto: #imageLiteral(resourceName: "calendar"))
         arrayOptions.append(optionCell)
         
-        optionCell = Opcao(tituloOpcao: "Calculadora de IMC", foto: #imageLiteral(resourceName: "calculadora"))
+        optionCell = Opcao(tituloOpcao: "Calculadora de IMC", foto: #imageLiteral(resourceName: "calculating"))
         arrayOptions.append(optionCell)
     }
 

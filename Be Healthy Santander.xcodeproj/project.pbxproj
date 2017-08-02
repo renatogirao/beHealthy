@@ -10,6 +10,13 @@
 		425421170C8B5578594673E2 /* Pods_Be_Healthy_Santander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BA4FE2061AE68025C96D37 /* Pods_Be_Healthy_Santander.framework */; };
 		7157AD360AF3800FCD1D899A /* Pods_Be_Healthy_SantanderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C258C9023810D6B014B6637 /* Pods_Be_Healthy_SantanderUITests.framework */; };
 		94227CA5459CDFC3D81D7F91 /* Pods_Be_Healthy_SantanderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC17F1EC3662F2515D2F1D13 /* Pods_Be_Healthy_SantanderTests.framework */; };
+		FA23D99C1F2A1DB200A01356 /* tela de inicio be healthy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23D99B1F2A1DB200A01356 /* tela de inicio be healthy.png */; };
+		FA23D99E1F2A250C00A01356 /* menino.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23D99D1F2A250C00A01356 /* menino.png */; };
+		FA23D9A01F2A251500A01356 /* menina.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23D99F1F2A251500A01356 /* menina.png */; };
+		FA23D9A21F2A281100A01356 /* compartilhar sem fundo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23D9A11F2A281100A01356 /* compartilhar sem fundo.png */; };
+		FA23D9A41F2A286900A01356 /* Logo BeHealthy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23D9A31F2A286900A01356 /* Logo BeHealthy.png */; };
+		FA23D9A61F2A287F00A01356 /* medalha.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23D9A51F2A287F00A01356 /* medalha.png */; };
+		FA23D9A81F2A288B00A01356 /* lista.png in Resources */ = {isa = PBXBuildFile; fileRef = FA23D9A71F2A288B00A01356 /* lista.png */; };
 		FA326FCA1EC35E68006FFCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FC91EC35E68006FFCE8 /* AppDelegate.swift */; };
 		FA326FCC1EC35E68006FFCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FCB1EC35E68006FFCE8 /* ViewController.swift */; };
 		FA326FCF1EC35E68006FFCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA326FCD1EC35E68006FFCE8 /* Main.storyboard */; };
@@ -17,7 +24,6 @@
 		FA326FDF1EC35E68006FFCE8 /* Be_Healthy_SantanderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FDE1EC35E68006FFCE8 /* Be_Healthy_SantanderTests.swift */; };
 		FA326FEA1EC35E68006FFCE8 /* Be_Healthy_SantanderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FE91EC35E68006FFCE8 /* Be_Healthy_SantanderUITests.swift */; };
 		FA326FF81EC36CEC006FFCE8 /* Opcoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA326FF71EC36CEC006FFCE8 /* Opcoes.swift */; };
-		FA3270091EC375A8006FFCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3270081EC375A8006FFCE8 /* Assets.xcassets */; };
 		FA32700B1EC387FF006FFCE8 /* OpcaoCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA32700A1EC387FF006FFCE8 /* OpcaoCelula.swift */; };
 		FA3270131EC3968B006FFCE8 /* CorridaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270121EC3968B006FFCE8 /* CorridaViewController.swift */; };
 		FA3270151EC39693006FFCE8 /* CalculoIMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3270141EC39693006FFCE8 /* CalculoIMCViewController.swift */; };
@@ -29,19 +35,22 @@
 		FA3CB65D1F1FA5040068D115 /* estrada fundo celular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB65C1F1FA5040068D115 /* estrada fundo celular.jpg */; };
 		FA3CB65F1F1FA5320068D115 /* logo e healthy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB65E1F1FA5320068D115 /* logo e healthy.png */; };
 		FA3CB6631F1FB1260068D115 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CB6621F1FB1260068D115 /* RegistroViewController.swift */; };
-		FA3CB6651F1FB5D40068D115 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3CB6641F1FB5D40068D115 /* facebook.png */; };
-		FA60B7FB1F15142A00E322E0 /* alarme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA60B7FA1F15142A00E322E0 /* alarme.mp3 */; };
 		FA60B7FD1F152C7D00E322E0 /* CalculoAguaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60B7FC1F152C7D00E322E0 /* CalculoAguaViewController.swift */; };
+		FA7788221F2A60A200FC0B0E /* modeloQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77881A1F2A60A200FC0B0E /* modeloQuiz.swift */; };
+		FA7788231F2A60A200FC0B0E /* ShuffleFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77881B1F2A60A200FC0B0E /* ShuffleFunction.swift */; };
+		FA7788261F2A60A200FC0B0E /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77881E1F2A60A200FC0B0E /* DifficultyViewController.swift */; };
+		FA7788271F2A60A200FC0B0E /* EasyDifficultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77881F1F2A60A200FC0B0E /* EasyDifficultViewController.swift */; };
+		FA77882C1F2A614F00FC0B0E /* NormalDifficultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77882A1F2A614F00FC0B0E /* NormalDifficultViewController.swift */; };
+		FA77882D1F2A614F00FC0B0E /* HardDifficultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77882B1F2A614F00FC0B0E /* HardDifficultViewController.swift */; };
 		FA805C121F0AD28F00007611 /* inicio be healthy.png in Resources */ = {isa = PBXBuildFile; fileRef = FA805C111F0AD28F00007611 /* inicio be healthy.png */; };
 		FA8EB87C1ED70DDF00585ED6 /* cansado32pixels.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8EB87A1ED70DDF00585ED6 /* cansado32pixels.png */; };
 		FA8EB87D1ED70DDF00585ED6 /* cansado64pixels.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8EB87B1ED70DDF00585ED6 /* cansado64pixels.png */; };
 		FA8EB87F1ED70DF700585ED6 /* meninoComemorandoEscolhido.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8EB87E1ED70DF700585ED6 /* meninoComemorandoEscolhido.png */; };
 		FA8EB8811ED70E0000585ED6 /* correndo bem rapido.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8EB8801ED70E0000585ED6 /* correndo bem rapido.png */; };
 		FAB574271EC4940800F8B99C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB574261EC4940800F8B99C /* LoginViewController.swift */; };
-		FAB5742E1EC4A89500F8B99C /* Underdoug DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAB574281EC4A89500F8B99C /* Underdoug DEMO.otf */; };
-		FAB5742F1EC4A89500F8B99C /* Ember.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAB574291EC4A89500F8B99C /* Ember.otf */; };
-		FAB574301EC4A89500F8B99C /* coffee+teademo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAB5742A1EC4A89500F8B99C /* coffee+teademo-Regular.ttf */; };
 		FAB9F1321EC9DA5400297F78 /* DadosDaCorridaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9F1311EC9DA5400297F78 /* DadosDaCorridaViewController.swift */; };
+		FAEFAC1B1F27C65400888A32 /* alarme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAEFAC1A1F27C65400888A32 /* alarme.mp3 */; };
+		FAEFAC1D1F27C71600888A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEFAC1C1F27C71600888A32 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,13 @@
 		A0D35A193E8E9D6A5AD1D40A /* Pods-Be Healthy SantanderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy SantanderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy SantanderTests/Pods-Be Healthy SantanderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8B44F19108DE2DBE53389A6 /* Pods-Be Healthy SantanderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy SantanderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy SantanderTests/Pods-Be Healthy SantanderTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC17F1EC3662F2515D2F1D13 /* Pods_Be_Healthy_SantanderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Be_Healthy_SantanderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA23D99B1F2A1DB200A01356 /* tela de inicio be healthy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tela de inicio be healthy.png"; path = "../../Ícones/tela de inicio be healthy.png"; sourceTree = "<group>"; };
+		FA23D99D1F2A250C00A01356 /* menino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menino.png; path = "../../Ícones/menino.png"; sourceTree = "<group>"; };
+		FA23D99F1F2A251500A01356 /* menina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menina.png; path = "../../Ícones/menina.png"; sourceTree = "<group>"; };
+		FA23D9A11F2A281100A01356 /* compartilhar sem fundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "compartilhar sem fundo.png"; path = "../../Ícones/compartilhar sem fundo.png"; sourceTree = "<group>"; };
+		FA23D9A31F2A286900A01356 /* Logo BeHealthy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo BeHealthy.png"; path = "../../Ícones/Logo BeHealthy.png"; sourceTree = "<group>"; };
+		FA23D9A51F2A287F00A01356 /* medalha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medalha.png; path = "../../Ícones/medalha.png"; sourceTree = "<group>"; };
+		FA23D9A71F2A288B00A01356 /* lista.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lista.png; path = "../../Ícones/lista.png"; sourceTree = "<group>"; };
 		FA326FC61EC35E68006FFCE8 /* Be Healthy Santander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Healthy Santander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA326FC91EC35E68006FFCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA326FCB1EC35E68006FFCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +98,6 @@
 		FA326FE91EC35E68006FFCE8 /* Be_Healthy_SantanderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_Healthy_SantanderUITests.swift; sourceTree = "<group>"; };
 		FA326FEB1EC35E68006FFCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA326FF71EC36CEC006FFCE8 /* Opcoes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Opcoes.swift; sourceTree = "<group>"; };
-		FA3270081EC375A8006FFCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Santander Be Healthy/Onde estou Aula/Assets.xcassets"; sourceTree = "<group>"; };
 		FA32700A1EC387FF006FFCE8 /* OpcaoCelula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpcaoCelula.swift; sourceTree = "<group>"; };
 		FA3270121EC3968B006FFCE8 /* CorridaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CorridaViewController.swift; path = ../CorridaViewController.swift; sourceTree = "<group>"; };
 		FA3270141EC39693006FFCE8 /* CalculoIMCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculoIMCViewController.swift; path = ../CalculoIMCViewController.swift; sourceTree = "<group>"; };
@@ -95,20 +110,26 @@
 		FA3CB65C1F1FA5040068D115 /* estrada fundo celular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "estrada fundo celular.jpg"; path = "../../Ícones/estrada fundo celular.jpg"; sourceTree = "<group>"; };
 		FA3CB65E1F1FA5320068D115 /* logo e healthy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo e healthy.png"; path = "../../Ícones/logo e healthy.png"; sourceTree = "<group>"; };
 		FA3CB6621F1FB1260068D115 /* RegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
-		FA3CB6641F1FB5D40068D115 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = "../../Ícones/facebook.png"; sourceTree = "<group>"; };
-		FA60B7FA1F15142A00E322E0 /* alarme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarme.mp3; path = ../../../../Downloads/alarme.mp3; sourceTree = "<group>"; };
 		FA60B7FC1F152C7D00E322E0 /* CalculoAguaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculoAguaViewController.swift; sourceTree = "<group>"; };
+		FA77881A1F2A60A200FC0B0E /* modeloQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = modeloQuiz.swift; path = ../../../../../../Downloads/Biblicando/Biblicando/PerguntasERespostas/modeloQuiz.swift; sourceTree = "<group>"; };
+		FA77881B1F2A60A200FC0B0E /* ShuffleFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShuffleFunction.swift; path = ../../../../../../Downloads/Biblicando/Biblicando/PerguntasERespostas/ShuffleFunction.swift; sourceTree = "<group>"; };
+		FA77881E1F2A60A200FC0B0E /* DifficultyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DifficultyViewController.swift; path = ../../../../../../Downloads/Biblicando/Biblicando/PerguntasERespostas/DifficultyViewController.swift; sourceTree = "<group>"; };
+		FA77881F1F2A60A200FC0B0E /* EasyDifficultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasyDifficultViewController.swift; path = ../../../../../../Downloads/Biblicando/Biblicando/PerguntasERespostas/EasyDifficultViewController.swift; sourceTree = "<group>"; };
+		FA77882A1F2A614F00FC0B0E /* NormalDifficultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NormalDifficultViewController.swift; path = ../../../../../../Downloads/Biblicando/Biblicando/PerguntasERespostas/NormalDifficultViewController.swift; sourceTree = "<group>"; };
+		FA77882B1F2A614F00FC0B0E /* HardDifficultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HardDifficultViewController.swift; path = ../../../../../../Downloads/Biblicando/Biblicando/PerguntasERespostas/HardDifficultViewController.swift; sourceTree = "<group>"; };
 		FA805C111F0AD28F00007611 /* inicio be healthy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "inicio be healthy.png"; path = "../../Ícones/inicio be healthy.png"; sourceTree = "<group>"; };
 		FA8EB87A1ED70DDF00585ED6 /* cansado32pixels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cansado32pixels.png; path = "../../Ícones/cansado32pixels.png"; sourceTree = "<group>"; };
 		FA8EB87B1ED70DDF00585ED6 /* cansado64pixels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cansado64pixels.png; path = "../../Ícones/cansado64pixels.png"; sourceTree = "<group>"; };
 		FA8EB87E1ED70DF700585ED6 /* meninoComemorandoEscolhido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meninoComemorandoEscolhido.png; path = "../../Ícones/meninoComemorandoEscolhido.png"; sourceTree = "<group>"; };
 		FA8EB8801ED70E0000585ED6 /* correndo bem rapido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "correndo bem rapido.png"; path = "../../Ícones/correndo bem rapido.png"; sourceTree = "<group>"; };
 		FAB574261EC4940800F8B99C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FAB574281EC4A89500F8B99C /* Underdoug DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Underdoug DEMO.otf"; path = "/Users/flexadm/Documents/Apps/Santander Be Healthy/../Fontes/Underdoug DEMO.otf"; sourceTree = "<absolute>"; };
-		FAB574291EC4A89500F8B99C /* Ember.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ember.otf; path = "/Users/flexadm/Documents/Apps/Santander Be Healthy/../Fontes/Ember.otf"; sourceTree = "<absolute>"; };
-		FAB5742A1EC4A89500F8B99C /* coffee+teademo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "coffee+teademo-Regular.ttf"; path = "/Users/flexadm/Documents/Apps/Santander Be Healthy/../Fontes/coffee+teademo-Regular.ttf"; sourceTree = "<absolute>"; };
 		FAB9F1311EC9DA5400297F78 /* DadosDaCorridaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadosDaCorridaViewController.swift; sourceTree = "<group>"; };
 		FAE6648D68E181317B3570DF /* Pods-Be Healthy Santander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy Santander.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy Santander/Pods-Be Healthy Santander.debug.xcconfig"; sourceTree = "<group>"; };
+		FAEFAC171F27C5DB00888A32 /* coffee+teademo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "coffee+teademo-Regular.ttf"; path = "../../Fontes/coffee+teademo-Regular.ttf"; sourceTree = "<group>"; };
+		FAEFAC181F27C5DB00888A32 /* Ember.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ember.otf; path = ../../Fontes/Ember.otf; sourceTree = "<group>"; };
+		FAEFAC191F27C5DB00888A32 /* Underdoug DEMO.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Underdoug DEMO.otf"; path = "../../Fontes/Underdoug DEMO.otf"; sourceTree = "<group>"; };
+		FAEFAC1A1F27C65400888A32 /* alarme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarme.mp3; path = ../../../../alarme.mp3; sourceTree = "<group>"; };
+		FAEFAC1C1F27C71600888A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE5309F217A5BAEA2DAC0E8A /* Pods-Be Healthy Santander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Be Healthy Santander.release.xcconfig"; path = "Pods/Target Support Files/Pods-Be Healthy Santander/Pods-Be Healthy Santander.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +211,8 @@
 			isa = PBXGroup;
 			children = (
 				FA326FC91EC35E68006FFCE8 /* AppDelegate.swift */,
+				FA77881B1F2A60A200FC0B0E /* ShuffleFunction.swift */,
+				FA77881A1F2A60A200FC0B0E /* modeloQuiz.swift */,
 				FA326FF71EC36CEC006FFCE8 /* Opcoes.swift */,
 				FA32700A1EC387FF006FFCE8 /* OpcaoCelula.swift */,
 				FAB574261EC4940800F8B99C /* LoginViewController.swift */,
@@ -201,11 +224,15 @@
 				FA3270121EC3968B006FFCE8 /* CorridaViewController.swift */,
 				FAB9F1311EC9DA5400297F78 /* DadosDaCorridaViewController.swift */,
 				FA3270141EC39693006FFCE8 /* CalculoIMCViewController.swift */,
+				FA77881E1F2A60A200FC0B0E /* DifficultyViewController.swift */,
+				FA77881F1F2A60A200FC0B0E /* EasyDifficultViewController.swift */,
+				FA77882A1F2A614F00FC0B0E /* NormalDifficultViewController.swift */,
+				FA77882B1F2A614F00FC0B0E /* HardDifficultViewController.swift */,
 				FA326FCD1EC35E68006FFCE8 /* Main.storyboard */,
 				FA326FD21EC35E68006FFCE8 /* LaunchScreen.storyboard */,
 				FA3CB6561F1F95F60068D115 /* GoogleService-Info.plist */,
 				FA326FD51EC35E68006FFCE8 /* Info.plist */,
-				FA3270081EC375A8006FFCE8 /* Assets.xcassets */,
+				FAEFAC1C1F27C71600888A32 /* Assets.xcassets */,
 			);
 			path = "Be Healthy Santander";
 			sourceTree = "<group>";
@@ -231,21 +258,27 @@
 		FA3270071EC37596006FFCE8 /* Arquivos Externos */ = {
 			isa = PBXGroup;
 			children = (
-				FA3CB6641F1FB5D40068D115 /* facebook.png */,
+				FA23D99B1F2A1DB200A01356 /* tela de inicio be healthy.png */,
 				FA3CB6581F1FA22A0068D115 /* facebook.png */,
 				FA32F5CF1F0EB870004ABD4C /* It is Definitely Possible.otf */,
 				FA805C111F0AD28F00007611 /* inicio be healthy.png */,
 				FA3CB65C1F1FA5040068D115 /* estrada fundo celular.jpg */,
 				FA3CB65A1F1FA41C0068D115 /* fundoTelaAzulbolinha.jpg */,
 				FA3CB65E1F1FA5320068D115 /* logo e healthy.png */,
-				FAB574281EC4A89500F8B99C /* Underdoug DEMO.otf */,
-				FAB574291EC4A89500F8B99C /* Ember.otf */,
-				FAB5742A1EC4A89500F8B99C /* coffee+teademo-Regular.ttf */,
+				FAEFAC171F27C5DB00888A32 /* coffee+teademo-Regular.ttf */,
+				FA23D99D1F2A250C00A01356 /* menino.png */,
+				FAEFAC181F27C5DB00888A32 /* Ember.otf */,
+				FAEFAC191F27C5DB00888A32 /* Underdoug DEMO.otf */,
 				FA8EB87A1ED70DDF00585ED6 /* cansado32pixels.png */,
 				FA8EB87B1ED70DDF00585ED6 /* cansado64pixels.png */,
+				FA23D9A11F2A281100A01356 /* compartilhar sem fundo.png */,
+				FA23D9A31F2A286900A01356 /* Logo BeHealthy.png */,
 				FA8EB87E1ED70DF700585ED6 /* meninoComemorandoEscolhido.png */,
+				FA23D9A71F2A288B00A01356 /* lista.png */,
+				FA23D99F1F2A251500A01356 /* menina.png */,
 				FA8EB8801ED70E0000585ED6 /* correndo bem rapido.png */,
-				FA60B7FA1F15142A00E322E0 /* alarme.mp3 */,
+				FAEFAC1A1F27C65400888A32 /* alarme.mp3 */,
+				FA23D9A51F2A287F00A01356 /* medalha.png */,
 			);
 			name = "Arquivos Externos";
 			sourceTree = "<group>";
@@ -372,23 +405,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA23D99C1F2A1DB200A01356 /* tela de inicio be healthy.png in Resources */,
 				FA3CB65D1F1FA5040068D115 /* estrada fundo celular.jpg in Resources */,
 				FA3CB6571F1F95F60068D115 /* GoogleService-Info.plist in Resources */,
+				FA23D99E1F2A250C00A01356 /* menino.png in Resources */,
 				FA326FD41EC35E68006FFCE8 /* LaunchScreen.storyboard in Resources */,
 				FA3CB65F1F1FA5320068D115 /* logo e healthy.png in Resources */,
-				FA3270091EC375A8006FFCE8 /* Assets.xcassets in Resources */,
 				FA3CB6591F1FA22A0068D115 /* facebook.png in Resources */,
 				FA3CB65B1F1FA41C0068D115 /* fundoTelaAzulbolinha.jpg in Resources */,
+				FA23D9A21F2A281100A01356 /* compartilhar sem fundo.png in Resources */,
 				FA8EB87C1ED70DDF00585ED6 /* cansado32pixels.png in Resources */,
+				FA23D9A61F2A287F00A01356 /* medalha.png in Resources */,
 				FA8EB8811ED70E0000585ED6 /* correndo bem rapido.png in Resources */,
 				FA326FCF1EC35E68006FFCE8 /* Main.storyboard in Resources */,
-				FAB574301EC4A89500F8B99C /* coffee+teademo-Regular.ttf in Resources */,
-				FA60B7FB1F15142A00E322E0 /* alarme.mp3 in Resources */,
-				FAB5742E1EC4A89500F8B99C /* Underdoug DEMO.otf in Resources */,
-				FA3CB6651F1FB5D40068D115 /* facebook.png in Resources */,
+				FAEFAC1B1F27C65400888A32 /* alarme.mp3 in Resources */,
 				FA805C121F0AD28F00007611 /* inicio be healthy.png in Resources */,
 				FA8EB87F1ED70DF700585ED6 /* meninoComemorandoEscolhido.png in Resources */,
-				FAB5742F1EC4A89500F8B99C /* Ember.otf in Resources */,
+				FA23D9A01F2A251500A01356 /* menina.png in Resources */,
+				FA23D9A81F2A288B00A01356 /* lista.png in Resources */,
+				FA23D9A41F2A286900A01356 /* Logo BeHealthy.png in Resources */,
+				FAEFAC1D1F27C71600888A32 /* Assets.xcassets in Resources */,
 				FA8EB87D1ED70DDF00585ED6 /* cansado64pixels.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,15 +590,21 @@
 			files = (
 				FAB9F1321EC9DA5400297F78 /* DadosDaCorridaViewController.swift in Sources */,
 				FA3270171EC3969E006FFCE8 /* LembreteAguaViewController.swift in Sources */,
+				FA77882C1F2A614F00FC0B0E /* NormalDifficultViewController.swift in Sources */,
 				FA3270151EC39693006FFCE8 /* CalculoIMCViewController.swift in Sources */,
+				FA7788231F2A60A200FC0B0E /* ShuffleFunction.swift in Sources */,
+				FA7788271F2A60A200FC0B0E /* EasyDifficultViewController.swift in Sources */,
 				FA32700B1EC387FF006FFCE8 /* OpcaoCelula.swift in Sources */,
 				FA3CB6631F1FB1260068D115 /* RegistroViewController.swift in Sources */,
 				FA326FF81EC36CEC006FFCE8 /* Opcoes.swift in Sources */,
 				FA326FCC1EC35E68006FFCE8 /* ViewController.swift in Sources */,
+				FA77882D1F2A614F00FC0B0E /* HardDifficultViewController.swift in Sources */,
 				FA32701B1EC396FC006FFCE8 /* ColetaDeDadosCorridaViewController.swift in Sources */,
 				FA3270131EC3968B006FFCE8 /* CorridaViewController.swift in Sources */,
+				FA7788221F2A60A200FC0B0E /* modeloQuiz.swift in Sources */,
 				FA60B7FD1F152C7D00E322E0 /* CalculoAguaViewController.swift in Sources */,
 				FAB574271EC4940800F8B99C /* LoginViewController.swift in Sources */,
+				FA7788261F2A60A200FC0B0E /* DifficultyViewController.swift in Sources */,
 				FA326FCA1EC35E68006FFCE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -718,11 +760,15 @@
 			baseConfigurationReference = FAE6648D68E181317B3570DF /* Pods-Be Healthy Santander.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = KXUSNVLP69;
 				INFOPLIST_FILE = "Be Healthy Santander/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-Santander";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-Santander9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -733,11 +779,15 @@
 			baseConfigurationReference = FE5309F217A5BAEA2DAC0E8A /* Pods-Be Healthy Santander.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = KXUSNVLP69;
 				INFOPLIST_FILE = "Be Healthy Santander/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-Santander";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flex.Be-Healthy-Santander9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

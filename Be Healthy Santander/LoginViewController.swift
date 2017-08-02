@@ -14,6 +14,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var usernameTextField: UITextField!
     
+    
     @IBOutlet weak var buttonLogin: UIButton!
     
     @IBOutlet weak var passwordTextField: UITextField!
@@ -27,9 +28,9 @@ class LoginViewController: UIViewController {
         
         buttonLogin.layer.cornerRadius = 10
         
-        let usuarioo = Auth.auth()
+        let usuario = Auth.auth()
         
-        usuarioo.signIn(withEmail: usernameTextField.text!, password: passwordTextField.text!) { (usuarioo, erro) in
+        usuario.signIn(withEmail: usernameTextField.text!, password: passwordTextField.text!) { (usuario, erro) in
             if erro == nil {
                 
                 print ("Sucesso ao logar usuario!")
@@ -42,7 +43,7 @@ class LoginViewController: UIViewController {
         
         
         
-        usuarioo.addStateDidChangeListener { (autenticacao, usuario) in
+        usuario.addStateDidChangeListener { (autenticacao, usuario) in
             if let usuarioLogado = usuario {
                 print("usuario esta logado" + String(describing: usuarioLogado.email))
             }else{

@@ -56,8 +56,8 @@ class ColetaDeDadosCorridaViewController: UIViewController, UITextFieldDelegate 
     @IBAction func selecionouMulher(_ sender: UIButton) {
         
         userSex = "Mulher"
-        manButton.setImage(#imageLiteral(resourceName: "menino"), for: UIControlState.normal)
-        girlButton.setImage(#imageLiteral(resourceName: "meninaComemorando"), for: UIControlState.normal)
+        manButton.setImage(#imageLiteral(resourceName: "menino.png"), for: UIControlState.normal)
+        girlButton.setImage(#imageLiteral(resourceName: "meninoComemorandoEscolhido.png"), for: UIControlState.normal)
         print ("Selecionou Mulher\n")
     }
     
@@ -65,7 +65,7 @@ class ColetaDeDadosCorridaViewController: UIViewController, UITextFieldDelegate 
         
         userSex = "Homem"
         manButton.setImage(#imageLiteral(resourceName: "meninoComemorandoEscolhido.png"), for: UIControlState.normal)
-        girlButton.setImage(#imageLiteral(resourceName: "menina"), for: UIControlState.normal)
+        girlButton.setImage(#imageLiteral(resourceName: "menina.png"), for: UIControlState.normal)
         print ("Selecionou Homem\n")
     }
     
