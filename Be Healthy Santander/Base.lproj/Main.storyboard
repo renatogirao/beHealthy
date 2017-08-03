@@ -243,11 +243,12 @@
                         <outlet property="logoBeHealthyAzulClaro" destination="KSC-Jt-4Sr" id="hbr-oV-JSZ"/>
                         <outlet property="textFieldPasswordRegistro" destination="Xyj-Pa-VaY" id="ysU-yl-MuY"/>
                         <outlet property="textFieldUsernameRegistrar" destination="bOt-Dr-bf7" id="2QU-wp-25C"/>
+                        <segue destination="kUT-j4-67j" kind="show" identifier="SegueVoltarLogin" id="HtK-l4-Sqw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iiw-IK-bn4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34.399999999999999" y="-1427.136431784108"/>
+            <point key="canvasLocation" x="1" y="-1607"/>
         </scene>
         <!--Lembrete Agua View Controller-->
         <scene sceneID="K9r-h9-TDY">
@@ -1521,7 +1522,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jdc-yP-gw5" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ty5-lt-huX">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ty5-lt-huX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -2084,5 +2085,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="3Ev-QK-v39"/>
         <segue reference="pdg-xk-nyI"/>
+        <segue reference="HtK-l4-Sqw"/>
     </inferredMetricsTieBreakers>
 </document>

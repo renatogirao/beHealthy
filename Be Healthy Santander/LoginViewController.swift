@@ -33,10 +33,10 @@ class LoginViewController: UIViewController {
         usuario.signIn(withEmail: usernameTextField.text!, password: passwordTextField.text!) { (usuario, erro) in
             if erro == nil {
                 
-                print ("Sucesso ao logar usuario!")
+                print ("Sucesso ao logar usuario!\n")
                 
             }else{
-                print ("Erro ao logar usuário! \(String(describing: erro?.localizedDescription))")
+                print ("Erro ao logar usuário! \n\(String(describing: erro?.localizedDescription))")
                 
             }
         }
@@ -45,9 +45,9 @@ class LoginViewController: UIViewController {
         
         usuario.addStateDidChangeListener { (autenticacao, usuario) in
             if let usuarioLogado = usuario {
-                print("usuario esta logado" + String(describing: usuarioLogado.email))
+                print("usuario esta logado tela login" + String(describing: usuarioLogado.email))
             }else{
-                print ("usuario nao está logado!")
+                print ("usuario nao está logado! - tela login")
                 
             }
         }

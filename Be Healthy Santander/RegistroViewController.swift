@@ -39,15 +39,31 @@ class RegistroViewController: UIViewController {
         
     }
     
+    func criarAlerta (title: String, message: String) {
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+
+        
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    
     @IBAction func cadastrarUsuario(_ sender: UIButton) {
         
+        
         usuario.createUser(withEmail: textFieldUsernameRegistrar.text!, password: textFieldPasswordRegistro.text!) { (usuario, erro) in
+            
             if erro == nil {
-                print ("usuario está logado\n" + String (describing: usuario?.email))
-                
+                print ("\nusuario está logado\n" + String (describing: usuario?.email))
+                self.performSegue( withIdentifier: "SegueVoltarLogin", sender: self)
             }else{
-                print ("usuário nao ta logado!\n" + String(describing: erro?.localizedDescription))
+                self.criarAlerta(title: "ACESSO NEGADO", message: "Acesso Negado por causa de \(erro!.localizedDescription)")
+            print ("\nusuário nao esta logado!\n" + String(describing: erro?.localizedDescription))
                 
+               
             }
         }
     }
