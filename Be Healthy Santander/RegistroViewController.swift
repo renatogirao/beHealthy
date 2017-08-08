@@ -7,6 +7,7 @@
 //
 
 import UIKit
+
 import FirebaseAuth
 
 class RegistroViewController: UIViewController {
@@ -20,6 +21,9 @@ class RegistroViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+                
+                loginButton.delegate = self
         
         //Arredondando as bordas dos elementos
         
@@ -56,14 +60,19 @@ class RegistroViewController: UIViewController {
         
         usuario.createUser(withEmail: textFieldUsernameRegistrar.text!, password: textFieldPasswordRegistro.text!) { (usuario, erro) in
             
+            if self.textFieldUsernameRegistrar.text == "" {
+                
+                self.criarAlerta(title: "Login em branco", message: "Favor preencher seu login")
+            }
+            
             if erro == nil {
                 print ("\nusuario está logado\n" + String (describing: usuario?.email))
                 self.performSegue( withIdentifier: "SegueVoltarLogin", sender: self)
             }else{
                 self.criarAlerta(title: "ACESSO NEGADO", message: "Acesso Negado por causa de \(erro!.localizedDescription)")
-            print ("\nusuário nao esta logado!\n" + String(describing: erro?.localizedDescription))
+                print ("\nusuário nao esta logado!\n\n" + String(describing: (erro?.localizedDescription)! + String(describing: erro.debugDescription)))
                 
-               
+                
             }
         }
     }

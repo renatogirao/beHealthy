@@ -13,12 +13,9 @@ import FirebaseAuth
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var usernameTextField: UITextField!
-    
-    
     @IBOutlet weak var buttonLogin: UIButton!
-    
     @IBOutlet weak var passwordTextField: UITextField!
-    
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,16 +25,37 @@ class LoginViewController: UIViewController {
         
         buttonLogin.layer.cornerRadius = 10
         
-        let usuario = Auth.auth()
         
+        
+      
+    }
+    
+    func dismissKeyboard(){
+        //textField.resignFirstResponder()
+        view.endEditing(true)
+    }
+    
+    func criarAlerta (title: String, message: String) {
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        
+        
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    @IBAction func logarUsuario(_ sender: Any) {
+    let usuario = Auth.auth()
         usuario.signIn(withEmail: usernameTextField.text!, password: passwordTextField.text!) { (usuario, erro) in
             if erro == nil {
                 
                 print ("Sucesso ao logar usuario!\n")
-                
+                self.performSegue( withIdentifier: "SegueLoginFeito", sender: self)
             }else{
                 print ("Erro ao logar usuário! \n\(String(describing: erro?.localizedDescription))")
-                
+                self.criarAlerta(title: "ACESSO NEGADO", message: "Acesso Negado por causa de \(erro!.localizedDescription)")
             }
         }
         
@@ -51,11 +69,7 @@ class LoginViewController: UIViewController {
                 
             }
         }
-    }
     
-    func dismissKeyboard(){
-        //textField.resignFirstResponder()
-        view.endEditing(true)
     }
     
     override func didReceiveMemoryWarning() {

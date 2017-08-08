@@ -66,7 +66,7 @@
                                 <color key="tintColor" red="0.97387374774971736" green="1" blue="0.97213975577701017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Entrar"/>
                                 <connections>
-                                    <segue destination="zJ6-kI-j77" kind="show" id="k5f-Aq-SSL"/>
+                                    <action selector="logarUsuario:" destination="kUT-j4-67j" eventType="touchUpInside" id="NPL-w0-yb2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiA-lI-IPI">
@@ -99,6 +99,7 @@
                         <outlet property="buttonLogin" destination="kjB-hJ-OhY" id="EKc-yu-Fgi"/>
                         <outlet property="passwordTextField" destination="Zef-RK-tlx" id="f9b-BA-4qQ"/>
                         <outlet property="usernameTextField" destination="66F-ru-gPo" id="ZY1-IP-oO2"/>
+                        <segue destination="zJ6-kI-j77" kind="show" identifier="SegueLoginFeito" id="13J-oR-VBk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V0d-cr-HS2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -186,7 +187,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo e healthy.png" translatesAutoresizingMaskIntoConstraints="NO" id="KSC-Jt-4Sr">
-                                <rect key="frame" x="144" y="100" width="86" height="72"/>
+                                <rect key="frame" x="144" y="56" width="86" height="116"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="86" id="qaY-1t-VNG"/>
                                 </constraints>
@@ -2083,8 +2084,8 @@
         <image name="tela de inicio be healthy.png" width="429" height="702"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3Ev-QK-v39"/>
-        <segue reference="pdg-xk-nyI"/>
+        <segue reference="13J-oR-VBk"/>
         <segue reference="HtK-l4-Sqw"/>
+        <segue reference="pdg-xk-nyI"/>
     </inferredMetricsTieBreakers>
 </document>

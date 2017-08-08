@@ -11,7 +11,6 @@ pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
 
-
   target 'Be Healthy SantanderTests' do
     inherit! :search_paths
     # Pods for testing
